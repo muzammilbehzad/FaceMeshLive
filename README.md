@@ -7,4 +7,4 @@ This repo is for real-time face and face-mesh detection. However, It can be equa
 
 Live demo here on [YouTube](https://youtu.be/U2GVMsShIP0).
 
-<img src="Capture.PNG">
+<img src="facemesh.png">
