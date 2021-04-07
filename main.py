@@ -21,7 +21,7 @@ mp_face_mesh = mp.solutions.face_mesh
 drawing_spec = mp_drawing.DrawingSpec(thickness=1, circle_radius=1)
 
 # create the haar cascade for face detection
-faceCascade = cv2.CascadeClassifier(r"C:\Users\mbehzad18\AppData\Local\Continuum\anaconda3\Lib\site-packages\cv2\data\haarcascade_frontalface_default.xml")
+faceCascade = cv2.CascadeClassifier("haarcascade_frontalface_default.xml")
 
 # initialize camera capture
 video = cv2.VideoCapture(0)
